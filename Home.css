@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background: white;
+  overflow: auto;
+  margin-top: 20px;
+  height: auto;
+}
+
+main {
+  background: white;
+}
+footer {
+  background: #e8e8e8;
+  height: 150px;
+  margin: 10px;
+}
+footer h4 {
+  margin: 10px 10px 10px 30px;
+  float: left;
+}
+.snelnaar a:link {
+ color: black;
+ float: left;
+}
+.snelnaar a:hover {
+  box-shadow: 5px 5px 2px #888888;
+  background-color: #888888
+}
+
+.adres {
+  margin: 10px 100px 10px 10px;
+  float: left;
+}
+main, section, article, footer {
+  overflow: auto;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.bovenpagina{
+  width: 1000px;
+  height: 200px;
+}
+.bovenpagina a {
+  float: right;
+  margin: 5px;
+}
+input {
+    background-image: url('search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+}
+.logo {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  background-image: url("imperiumlogo.png");
+  background-repeat: no-repeat;
+  background-size: 150px, 150px;
+}
+.titelfoto {
+  width: 1000px;
+  height: 350px;
+}
+
+.hoofdmenu {
+  float: right;
+  width: 1000px;
+  background-color: #DA0043;
+}
+.hoofdmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 6px 10px;
+  }
+.hoofdmenu li a:hover {
+    background-color: lightgray;
+  }
+
+.hoofdmenu ul li {
+  float: left;
+  list-style: none;
+  margin: 1%;
+  border: black;
+}
+
+.voorstellingen {
+  float: left;
+  width: 45%;
+  background-color: #e8e8e8;
+  margin: 20px 30px 30px 0px;
+  padding: 10px;
+  height: 1110px;
+}
+.voorstellinginfo {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+.kopjesvoorstelling{
+  float: left;
+  margin: 10px;
+
+}
+.bestelbutton {
+    background-color: white;
+    border-radius: 5%;
+    height: 40px;
+    width: 75px;
+    color: black;
+    border: 2px solid darkgray;
+}
+.bestelbutton:hover {
+  background-color: darkgray;
+}
+aside {
+  float: left;
+  width: 40%;
+  margin: 20px 0px 10px 40px;
+}
+.Vrienden {
+  height: 350px;
+  background-color: #e8e8e8;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.Weetjesoverimperium {
+  height: 350px;
+  padding: 10px;
+  background-color: #e8e8e8;
+  margin-bottom: 30px;
+}
+.nieuwsbrief {
+  height: 350px;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+.fotovoorstelling {
+  float: left;
+  width: 140px;
+  height: 200px;
+  margin: 5px 15px 5px 5px;
+}
+section, h2 {
+  margin-left: 15px;
+}
