@@ -10,7 +10,19 @@
         <header>
         <div class="bovenpagina">
           <p><input type="text" name="search" placeholder="Search.."><a href="#winkelmandje"> winkelmandje </a> <a href="#login"> Login </a> </p>
+          <!-- REVIEW
+          Om het zoekveld moet nog de <form method="" id="search"> tags
+          Je zet nu alle 3 de elementen in een <p>, maar eigenlijk is het een formulier
+          en een lijst met 2 navigatie elementen
+          Dus de twee <a> moeten eigenlijk in een <ul>
+          -->
+
           <div class="logo">
+            <!-- REVIEW
+            Het logo moet klikbaar zijn en naar de homepagina leiden
+            je moet hier dus <a href="index.html"> om de div heenzetten.
+            Ik heb een andere oplossing voor het logo op mijn Codepen staan
+            -->
           </div>
         </div>
           <nav class="hoofdmenu">
@@ -23,19 +35,34 @@
           </nav>
           <nav>
             <img class="titelfoto" src="paard.jpg" alt="nieuwe voorstelling"/>
+            <!-- REVIEW
+            Dit is geen navigatie, dus <nav> moet vervangen worden door bijvoorbeeld een <figure> tag
+            -->
           </nav>
         </header>
         <main>
           <section class="voorstellingen">
             <h2> Aankomende voorstellingen </h2>
+            <!-- REVIEW
+            je start hier met een <h2> maar ik heb nog geen <h1> gezien.
+            Dit is dus gewoon de <h1> van de sectie voorstellingen
+            -->
             <article class="kopjesvoorstelling">
                 <p><img class="fotovoorstelling" src="killer joe.jpg" alt="Killer joe" /></p>
+                <!-- REVIEW
+                Deze afbeelding moet niet in een <p> maar in een <figure>
+                -->
                 <p>
                   <h3>Killer Joe</h3> <br />
                   Speeldata: 19, 20, 26, 27 februari en 3, 4 en 5 maart 2016 <br />
                   Aanvang: 20:30 uur<br />
                   Prijs: 12 euro<br /><br />
                   <button class="bestelbutton">Bestel</button></p>
+                  <!-- REVIEW
+                  Voor de button kun je beter een <a href=""> gebruiken. <button> wordt eigenlijk
+                  nauwelijks gebruikt. En als je <a> gebruikt is deze gelijk klikbaar.
+                  Met CSS kun je een <a> er dan weer uit laten zien als een button.
+                  -->
               </article>
               <article class="kopjesvoorstelling">
                 <p><img class="fotovoorstelling" src="Het zouthuis.jpg" alt="Het zouthuis" /></p>
@@ -115,3 +142,17 @@
         </div>
       </body>
     </html>
+<!-- REVIEW
+Probeer ook je website folder een beetje te organiseren.
+Normaal gesproken heb je de html bestanden in de hoofdfolder staan
+En je CSS en afbeeldingen in twee mappen, css en images
+-->
+<!-- REVIEW
+Het is een soort van afspraak dat de homepagina index.html genoemd wordt.
+Op het moment dat je naar de URL gaat, dan zoekt de browser ook automatisch naar
+het bestand index.html als homepagina
+-->
+<!-- REVIEW
+Vergeet je geen comments in je code te plaatsen? Dat wordt even zwaar beoordeeld
+als de kwaliteit van je HTML/CSS
+-->
